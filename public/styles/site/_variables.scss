@@ -1,3 +1,19 @@
+// Core variables and mixins
+
 // Override Bootstrap variables in this file, e.g.
 
-$font-size-base: 14px;
+
+$font-size-base: 43px;
+$brand-primary:         darken(#338bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #dddd4e !default;
+$brand-danger:          #d9534f !default;
+
+
+
+.jumbotron {
+	background-color: #000;
+}
+
+$body-bg:               #000 !default;
